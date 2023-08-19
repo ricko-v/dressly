@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&family=Ubuntu&display=swap');
+
+:root {
+    --cream-dark: #A14B38;
+    --cream: #E09370;
+    --cream-soft: #F5CCAB;
+    --cream-more-soft: #FBE3C9;
+    --swiper-pagination-top: auto !important;
+    --swiper-wrapper-bottom: 100px !important;
+}
+
+* {
+    scrollbar-width: thin !important;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.5);
+    border-radius: 20px;
+    border: transparent;
+}
+
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-lora {
+    font-family: 'Lora', serif;
+}
+
+
+.font-ubuntu {
+    font-family: 'Ubuntu', serif;
+}
+
+body,
+html {
+    margin: 0px;
+}
+
+.bg-cream {
+    background-color: var(--cream) !important;
+}
+
+.bg-cream-dark {
+    background-color: var(--cream-dark) !important;
+}
+
+
+.bg-cream-soft {
+    background-color: var(--cream-soft) !important;
+}
+
+.bg-cream-more-soft {
+    background-color: var(--cream-more-soft) !important;
+}
+
+.text-cream {
+    color: var(--cream) !important;
+}
+
+.form-control:focus {
+    border-color: var(--cream) !important;
+}
+
+.bg-transparent-50 {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+a {
+    text-decoration: none !important;
+}
