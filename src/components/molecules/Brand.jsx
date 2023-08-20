@@ -5,7 +5,7 @@ export default function Brand({ src }) {
     return (
         <div>
             <a href="#">
-                <Image width={'100%'} height={'100%'} src={src} style={{ width: 150 }} alt="thumb" />
+                <Image width={150} height={'100%'} src={src} alt="thumb" />
             </a>
         </div>
     )
