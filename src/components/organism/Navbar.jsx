@@ -5,6 +5,7 @@ import Account from '../atoms/Icons/Account'
 import Bag from '../atoms/Icons/Bag'
 import Toogle from '../atoms/Icons/Toogle'
 import ButtonBase from '../atoms/Button/ButtonBase'
+import Image from '../atoms/Image'
 
 export default function Navbar() {
     return (
@@ -14,7 +15,7 @@ export default function Navbar() {
                     <Toogle width={20} height={20} />
                 </button>
                 <a className="navbar-brand" href="#">
-                    <img src={logo} alt="Logo Dressly" width={100} />
+                    <Image src={logo} alt="Logo Dressly" width={100} />
                 </a>
                 <button className="d-block d-md-none btn bg-transparent shadow-none border-0">
                     <Bag width={20} height={20} />
