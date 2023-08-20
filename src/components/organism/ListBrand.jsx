@@ -1,11 +1,11 @@
 import React from 'react'
 import Brand from '../molecules/Brand'
-import Berluti from '../../assets/img/berluti.png'
-import Balenciaga from '../../assets/img/balenciaga.png'
-import Gucci from '../../assets/img/gucci.png'
-import Jimmy from '../../assets/img/jimmy.png'
-import Louis from '../../assets/img/louis.png'
-import Burberry from '../../assets/img/burberry.png'
+import Berluti from '../../assets/img/berluti.webp'
+import Balenciaga from '../../assets/img/balenciaga.webp'
+import Gucci from '../../assets/img/gucci.webp'
+import Jimmy from '../../assets/img/jimmy.webp'
+import Louis from '../../assets/img/louis.webp'
+import Burberry from '../../assets/img/burberry.webp'
 
 export default function ListBrand() {
     return (

@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import BestSeller from '../molecules/BestSeller'
-import Sneaker from '../../assets/img/sneaker-bestseller.png'
-import Women from '../../assets/img/women-bestseller.png'
-import Men from '../../assets/img/men-bestseller.png'
-import Bag from '../../assets/img/bag-bestseller.png'
+import Sneaker from '../../assets/img/sneaker-bestseller.webp'
+import Women from '../../assets/img/women-bestseller.webp'
+import Men from '../../assets/img/men-bestseller.webp'
+import Bag from '../../assets/img/bag-bestseller.webp'
 import ButtonSeeAll from '../molecules/ButtonSeeAll'
 
 export default function ListBestSeller() {

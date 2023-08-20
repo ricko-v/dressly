@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../../assets/img/logo.png'
-import AppStore from '../../assets/img/appstore.png'
-import PlayStore from '../../assets/img/playstore.png'
+import logo from '../../assets/img/logo.webp'
+import AppStore from '../../assets/img/appstore.webp'
+import PlayStore from '../../assets/img/playstore.webp'
 
 export default function Footer() {
     return (
@@ -60,12 +60,12 @@ export default function Footer() {
                 <div className='row mt-3'>
                     <div className='col-6'>
                         <a href="#">
-                            <img src={AppStore} className='img-fluid' alt="appstore" />
+                            <img width={'100%'} height={'100%'} src={AppStore} className='img-fluid' alt="appstore" />
                         </a>
                     </div>
                     <div className='col-6'>
                         <a href="#">
-                            <img src={PlayStore} className='img-fluid' alt="playstore" />
+                            <img width={'100%'} height={'100%'} src={PlayStore} className='img-fluid' alt="playstore" />
                         </a>
                     </div>
                 </div>

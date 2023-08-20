@@ -1,8 +1,8 @@
 import React from 'react'
 import TopSelection from '../molecules/TopSelection'
-import Eid from '../../assets/img/eid-selection.png'
-import Shoes from '../../assets/img/shoes-selection.png'
-import Accessory from '../../assets/img/accessory-selection.png'
+import Eid from '../../assets/img/eid-selection.webp'
+import Shoes from '../../assets/img/shoes-selection.webp'
+import Accessory from '../../assets/img/accessory-selection.webp'
 
 function ListTopSelection() {
     return (

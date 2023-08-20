@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/logo.webp'
 import Search from '../atoms/Icons/Search'
 import Account from '../atoms/Icons/Account'
 import Bag from '../atoms/Icons/Bag'

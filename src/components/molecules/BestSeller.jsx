@@ -6,7 +6,7 @@ export default function BestSeller({ src, text, rating, n, price, discount }) {
         <a href='#'>
             <div className='card'>
                 <div className='card-body'>
-                    <img src={src} className='img-fluid' />
+                    <img width={'100%'} height={'100%'} src={src} className='img-fluid' alt="thumb" />
 
                     <div className='my-2'>
                         <b className='font-ubuntu'>{text}</b>
