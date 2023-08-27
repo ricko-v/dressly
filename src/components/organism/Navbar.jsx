@@ -11,13 +11,13 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg bg-white fixed-top shadow-sm" style={{ zIndex: 99999 }}>
             <div className="container d-flex justify-content-between">
-                <button className="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button name='dressly-btn' className="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <Toogle width={20} height={20} />
                 </button>
                 <a className="navbar-brand" href="#">
-                    <Image src={logo} alt="Logo Dressly" width={100} />
+                    <Image src={logo} alt="Logo Dressly" width={100} height={25} />
                 </a>
-                <button className="d-block d-md-none btn bg-transparent shadow-none border-0">
+                <button name='dressly-btn' className="d-block d-md-none btn bg-transparent shadow-none border-0">
                     <Bag width={20} height={20} />
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
